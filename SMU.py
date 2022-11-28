@@ -14,11 +14,11 @@ from datetime import datetime
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # Note: USE / for \ in file path
-savefile = "C:/Users/johnb\OneDrive - University of Tennessee/4 senior/reslab/results/save/2/" # where to save file
+savefile = "C:/Users/johnb\OneDrive - University of Tennessee/4 senior/reslab/results/save/2/" # where to save file **********NEEDS TO BE CHANGED FOR EASY IMPORT
 #savefile = "C:/Users/tvr861/Desktop/code/saves/"
 
 # Connect Instrument
-SMU = Keithley2600('TCPIP0::192.168.10.61::inst0::INSTR')                   # Connect to SMU
+SMU = Keithley2600('TCPIP0::192.168.10.61::inst0::INSTR')                   # Connect to SMU **********NEEDS TO BE CHANGED FOR EASY IMPORT
 print('SMU is connected')
 plt.close("all")                                                            # closing any open plots
 
